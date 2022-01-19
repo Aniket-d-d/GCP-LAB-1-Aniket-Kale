@@ -8,7 +8,7 @@ export LAB_ID=17
 export TOPIC=projects/${PROJECT_ID}/topics/uc1-input-topic-17
 
 mvn compile exec:java
--Dexec.mainClass=gcp_lab1.PubSubToBigQuery
+-Dexec.mainClass=MyPipeline
 -Dexec.cleanupDaemonThreads=false
 -Dexec.args="
 --subTopic=projects/nttdata-c4e-bde/subscriptions/uc1-input-topic-sub-17

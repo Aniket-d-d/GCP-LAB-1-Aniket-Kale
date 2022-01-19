@@ -6,7 +6,7 @@ mvn compile exec:java \
 -Dexec.cleanupDaemonThreads=false \
 -Dexec.args=" \
 --subTopic=projects/nttdata-c4e-bde/subscriptions/uc1-input-topic-sub-17 \
---dlqTopic=projects/nttdata-c4e-bde/subscriptions/uc1-dlq-topic-sub-17 \
+--dlqTopic=projects/nttdata-c4e-bde/topics/uc1-dlq-topic-sub-17 \
 --runner=DataflowRunner \
 --project=nttdata-c4e-bde \
 --jobName=usecase1-labid-$LAB_ID \

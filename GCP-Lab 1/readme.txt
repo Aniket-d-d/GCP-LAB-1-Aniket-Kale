@@ -14,7 +14,7 @@ mvn compile exec:java \
 --serviceAccount=c4e-uc1-sa-$LAB_ID@nttdata-c4e-bde.iam.gserviceaccount.com \
 --maxNumWorkers=1 \
 --workerMachineType=n1-standard-1 \
---gcpTempLocation=gs://c4e-uc1-dataflow-temp-$LAB_ID/temp \https://github.com/Aniket-d-d/GCP-LABS-Aniket-Kale/blob/main/GCP-Lab%201/readme.txt
+--gcpTempLocation=gs://c4e-uc1-dataflow-temp-$LAB_ID/temp \
 --stagingLocation=gs://c4e-uc1-dataflow-temp-$LAB_ID/staging \
 --subnetwork=regions/europe-west4/subnetworks/subnet-uc1-$LAB_ID \
 --streaming"
